@@ -9,6 +9,7 @@
 		(date "2025-03-03")
 		(rev "3")
 		(company "Mario Gögel")
+		(comment 1 "2026-05-24 Martin Krohn: part numbers added for JLCPCB and Reichelt")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
@@ -8858,7 +8859,7 @@
 			(uuid "dfcc742e-bb10-4dea-ad84-e0ccde57018b")
 		)
 		(instances
-			(project ""
+			(project "pc1715-esp32vga"
 				(path "/341c8b8e-dd99-4606-bdc6-0ff6680aa4f8"
 					(reference "JP2")
 					(unit 1)
@@ -8917,6 +8918,24 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "JLCPCB Part #" "C2913201"
+			(at 194.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "ESP32S3WRM1N8R8 "
+			(at 194.31 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "15"
@@ -9168,6 +9187,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C17630"
+			(at 248.92 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJ6ENF3300V"
+			(at 248.92 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59e1d0f3-a3ec-4302-97e0-fdd7f2b82120")
 		)
@@ -9304,6 +9341,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C308881"
+			(at 166.37 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "TPS 3225 47/10"
+			(at 166.37 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "faf9c020-9cdb-40f8-9d50-925f5f3a1966")
 		)
@@ -9364,6 +9419,24 @@
 		)
 		(property "Description" ""
 			(at 251.46 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C441981"
+			(at 251.46 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJP06F1001"
+			(at 251.46 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9433,6 +9506,15 @@
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
 			(at 95.25 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5184243"
+			(at 95.25 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9570,6 +9652,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C77356"
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SD103BW DIO"
+			(at 39.37 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45e39b6d-3c8a-4dc2-9e23-82a07c4d5dd4")
 		)
@@ -9577,7 +9677,7 @@
 			(uuid "9df18006-4f06-4dac-b5f5-7bf3a4e4fd1d")
 		)
 		(instances
-			(project ""
+			(project "pc1715-esp32vga"
 				(path "/341c8b8e-dd99-4606-bdc6-0ff6680aa4f8"
 					(reference "D6")
 					(unit 1)
@@ -9720,6 +9820,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C77356"
+			(at 39.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SD103BW DIO"
+			(at 39.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45e39b6d-3c8a-4dc2-9e23-82a07c4d5dd5")
 		)
@@ -9727,7 +9845,7 @@
 			(uuid "9df18006-4f06-4dac-b5f5-7bf3a4e4fd1e")
 		)
 		(instances
-			(project ""
+			(project "pc1715-esp32vga"
 				(path "/341c8b8e-dd99-4606-bdc6-0ff6680aa4f8"
 					(reference "D4")
 					(unit 1)
@@ -9780,6 +9898,24 @@
 		)
 		(property "Description" ""
 			(at 81.28 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17630"
+			(at 81.28 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJ6ENF3300V"
+			(at 81.28 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9847,6 +9983,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C9662"
+			(at 153.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "LM 1117 MPX-3.3"
 			(at 153.67 31.75 0)
 			(effects
 				(font
@@ -10436,6 +10590,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C17630"
+			(at 81.28 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJ6ENF3300V"
+			(at 81.28 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "38803fca-44db-4224-9187-fa6500d805d6")
 		)
@@ -10503,6 +10675,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C17630"
+			(at 176.53 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJ6ENF3300V"
+			(at 176.53 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "65d22430-7870-4a21-80bb-16e47363570d")
 		)
@@ -10563,6 +10753,24 @@
 		)
 		(property "Description" ""
 			(at 251.46 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17710"
+			(at 251.46 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SMD-0805 470"
+			(at 251.46 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10711,7 +10919,7 @@
 			(uuid "ef3d433e-19da-4bba-befa-11b4feeaea38")
 		)
 		(instances
-			(project ""
+			(project "pc1715-esp32vga"
 				(path "/341c8b8e-dd99-4606-bdc6-0ff6680aa4f8"
 					(reference "J8")
 					(unit 1)
@@ -10831,6 +11039,24 @@
 		)
 		(property "Description" ""
 			(at 142.24 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17710"
+			(at 142.24 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SMD-0805 470"
+			(at 142.24 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11319,6 +11545,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C17630"
+			(at 137.16 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJ6ENF3300V"
+			(at 137.16 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b860450e-d83f-4af0-a65b-7c4e89f9b4b2")
 		)
@@ -11379,6 +11623,24 @@
 		)
 		(property "Description" ""
 			(at 251.46 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17710"
+			(at 251.46 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SMD-0805 470"
+			(at 251.46 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11511,6 +11773,24 @@
 		)
 		(property "Description" ""
 			(at 139.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17414"
+			(at 139.7 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SMD-0805 10,0K"
+			(at 139.7 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11714,6 +11994,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C77356"
+			(at 39.37 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "SD103BW DIO"
+			(at 39.37 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "45e39b6d-3c8a-4dc2-9e23-82a07c4d5dd6")
 		)
@@ -11721,7 +12019,7 @@
 			(uuid "9df18006-4f06-4dac-b5f5-7bf3a4e4fd1f")
 		)
 		(instances
-			(project ""
+			(project "pc1715-esp32vga"
 				(path "/341c8b8e-dd99-4606-bdc6-0ff6680aa4f8"
 					(reference "D5")
 					(unit 1)
@@ -11850,6 +12148,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "MHT170CRCT"
+			(at 182.88 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3ba06689-8bb7-46c6-a094-ed09cf9f1617")
 		)
@@ -11857,7 +12164,7 @@
 			(uuid "0a338b61-2095-4369-ba39-67200a202479")
 		)
 		(instances
-			(project ""
+			(project "pc1715-esp32vga"
 				(path "/341c8b8e-dd99-4606-bdc6-0ff6680aa4f8"
 					(reference "D1")
 					(unit 1)
@@ -11910,6 +12217,24 @@
 		)
 		(property "Description" ""
 			(at 142.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C441981"
+			(at 142.24 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJP06F1001"
+			(at 142.24 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12045,6 +12370,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C74423"
+			(at 137.16 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "TPS 3216 10/10"
 			(at 137.16 39.37 0)
 			(effects
 				(font
@@ -12313,6 +12656,33 @@
 		)
 		(property "Description" ""
 			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJ6ENF3300V"
+			(at 81.28 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17630"
+			(at 81.28 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12848,6 +13218,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C441981"
+			(at 251.46 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJP06F1001"
+			(at 251.46 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "c35b2371-b7e3-47b4-9612-1a1afa6c55e2")
 		)
@@ -12926,7 +13314,7 @@
 			(uuid "0c37f775-e104-4e08-ab89-8425a163a6f5")
 		)
 		(instances
-			(project ""
+			(project "pc1715-esp32vga"
 				(path "/341c8b8e-dd99-4606-bdc6-0ff6680aa4f8"
 					(reference "JP3")
 					(unit 1)

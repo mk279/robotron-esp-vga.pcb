@@ -10,6 +10,7 @@
 		(rev "2")
 		(company "Mario Goegel")
 		(comment 1 "2025-01-30 footprints updated, bugfix PCB")
+		(comment 2 "2026-05-24 Martin Krohn: part numbers added for JLCPCB and Reichelt")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_02x05_Odd_Even"
@@ -1791,6 +1792,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "215884ae-3ec0-4925-ab9f-04d7334ed475")
 		)
@@ -1848,6 +1858,24 @@
 		)
 		(property "Description" ""
 			(at 86.36 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C17630"
+			(at 86.36 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "PAN ERJ6ENF3300V"
+			(at 86.36 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1914,6 +1942,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4364498"
+			(at 116.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "TASTER 9313"
 			(at 116.84 45.72 0)
 			(effects
 				(font
@@ -1992,6 +2038,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d517778-e603-437b-91ff-49a33de9fc4b")
 		)
@@ -2048,6 +2103,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4364498"
+			(at 116.84 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "TASTER 9313"
 			(at 116.84 31.75 0)
 			(effects
 				(font
@@ -2115,6 +2188,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4364498"
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "TASTER 9313"
 			(at 116.84 63.5 0)
 			(effects
 				(font
@@ -2323,6 +2414,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "33193ab7-940e-486c-9332-58b515d62f27")
 		)
@@ -2380,6 +2480,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 74.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C389519"
 			(at 74.93 125.73 0)
 			(effects
 				(font
@@ -2458,6 +2567,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 163.83 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3550f5e4-7c74-4008-a0bf-652eb13ce569")
 		)
@@ -2514,6 +2632,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 116.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4364498"
+			(at 116.84 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "TASTER 9313"
 			(at 116.84 54.61 0)
 			(effects
 				(font
@@ -2648,6 +2784,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 49.53 55.88 0)
 			(effects
 				(font
@@ -2806,6 +2951,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
+			(at 74.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C409784"
 			(at 74.93 114.3 0)
 			(effects
 				(font
@@ -3016,6 +3170,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C401120"
+			(at 74.93 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4c766d52-2f42-448c-b737-0954920dcc03")
 		)
@@ -3075,6 +3238,24 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C4364498"
+			(at 116.84 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Reichelt" "TASTER 9313"
 			(at 116.84 72.39 0)
 			(effects
 				(font
